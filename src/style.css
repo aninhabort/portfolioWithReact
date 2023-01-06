@@ -1,0 +1,102 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  padding-bottom: 10px;
+  margin: 15px;
+  text-align: right;
+}
+
+.nav a {
+  color: rgb(255, 255, 255);
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+#header,
+#about,
+#project,
+#contact {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 100px;
+  text-align: justify;
+}
+
+#header h3 {
+  color: rgb(233, 130, 130);
+}
+
+#header h1 {
+  font-size: 70px;
+}
+
+.skillsAndProjects {
+  display: flex;
+  flex-flow: row;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.forms label {
+  display: flex;
+  flex-flow: column;
+  margin-top: 5px;
+  margin-left: 20px;
+  width: 500px;
+  padding: 10px;
+}
+
+.forms input,
+.forms textarea {
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.forms textarea {
+  height: 100px;
+}
+
+.forms input {
+  height: 25px;
+}
+
+.linkedin,
+.github,
+.submit {
+  border: 2px solid rgb(233, 130, 130);
+  border-radius: 5px;
+  padding: 7px;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.linkedin:hover,
+.github:hover,
+.submit:hover {
+  background-color: rgb(163, 67, 67);
+  color: white;
+}
+
+#contact {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+
+#footer {
+  bottom: 0;
+  border-top: 2px solid rgb(255, 255, 255);
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  width: 65%;
+  margin-left: 20%;
+}
